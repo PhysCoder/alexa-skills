@@ -1,0 +1,74 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "history facts",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "GetNewFactIntent",
+          "samples": [
+            "GetNewFactIntent a fact",
+            "GetNewFactIntent a history fact",
+            "GetNewFactIntent tell me a fact",
+            "GetNewFactIntent tell me a history fact",
+            "GetNewFactIntent give me a fact",
+            "GetNewFactIntent give me a history fact",
+            "GetNewFactIntent I want to know a history fact",
+            "GetNewFactIntent I want to know a fact",
+            "GetNewFactIntent read a fact to me",
+            "GetNewFactIntent read a history fact to me",
+            "GetNewFactIntent a history fact please",
+            "GetNewFactIntent return a history fact",
+            "GetNewFactIntent return a fact",
+            "GetNewFactIntent one fact",
+            "GetNewFactIntent one hisotry fact",
+            "GetNewFactIntent tell me one history fact"
+          ],
+          "slots": []
+        },
+        {
+          "name": "GetNewYearFactIntent",
+          "samples": [
+            "GetNewYearFactIntent give me a fact in {FACT_YEAR}",
+            "GetNewYearFactIntent give me a history fact in {FACT_YEAR}",
+            "GetNewYearFactIntent what is a fact in {FACT_YEAR}",
+            "GetNewYearFactIntent what is a fact of {FACT_YEAR",
+            "GetNewYearFactIntent tell me a history fact in {FACT_YEAR}",
+            "GetNewYearFactIntent I want to know a history fact in {FACT_YEAR}",
+            "GetNewYearFactIntent I want to know a fact in {FACT_YEAR}",
+            "GetNewYearFactIntent read a fact in {FACT_YEAR} to me",
+            "GetNewYearFactIntent read a history fact in {FACT_YEAR} to me",
+            "GetNewYearFactIntent a history fact in {FACT_YEAR} please",
+            "GetNewYearFactIntent return a history fact in {FACT_YEAR}",
+            "GetNewYearFactIntent return a fact in {FACT_YEAR}",
+            "GetNewYearFactIntent one fact in {FACT_YEAR}",
+            "GetNewYearFactIntent one hisotry fact in {FACT_YEAR}",
+            "GetNewYearFactIntent tell me one history fact in {FACT_YEAR}",
+            "GetNewYearFactIntent do you have a fact in {FACT_YEAR}"
+          ],
+          "slots": [
+                {
+                  "name": "FACT_YEAR",
+                  "type": "AMAZON.FOUR_DIGIT_NUMBER"
+                }
+              ]
+          }
+        ]
+    }
+  }
+}
